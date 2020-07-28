@@ -1,2 +1,2 @@
-# capiche-test
-Developer test at Capiche
+# WHS Web Design Course
+Lesson plan for Web Design course
