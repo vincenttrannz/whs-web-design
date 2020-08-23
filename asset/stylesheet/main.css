@@ -59,7 +59,7 @@ header {
 
 /* Navigation */
 
-.nav-panel span{
+.nav-panel span {
   margin: 10px auto;
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .intro img {
-  width: 100%;
+  width: 80%;
 }
 
 .subtitle {
@@ -88,34 +88,39 @@ header {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
-};
+}
+
+;
 
 /* Left image article */
-.left-image{
+.left-image,
+.right-image {
   display: inline-block;
 }
 
 .left-image {
   float: left;
-  width: 40%;
   text-align: center;
+}
+
+.left-image img {
+  width: 80%;
 }
 
 /* Right image article */
 
 .right-image {
-  display: inline-block;
+  float: right;
+  text-align: center;
 }
 
-.right-image {
-  float: right;
-  width: 40%;
-  text-align: center;
+.right-image img {
+  width: 80%;
 }
 
 /* Footer section */
 
-.footer__container {
+.footer-container {
   width: 80%;
   margin: auto;
   padding: 15px 0;
@@ -123,11 +128,15 @@ header {
 
 @media screen and (max-width: 736px), screen and (max-width: 375px) {
   /* Iphone 7, 8 plus & other mobile devices*/
-  .container {
-    margin: 4% auto 4% auto;
-    max-width: 80%;
+  .title h1 {
+    font-size: 2em;
   }
-  .footer__container {
-    width: 80%;
+  .sticky-nav {
+    height: 100%;
+    width: 100vw;
+    border: 3px solid tomato;
+  }
+  .container {
+    margin: 20% auto 0 auto;
   }
 }
